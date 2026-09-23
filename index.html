@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>镇江·极致奢享深度游 | 2026.10.3–10.6 四天三夜</title>
+<meta name="description" content="镇江 4 天 3 夜顶级深度自由行：顺路零折返、三山一渡全制霸、国宝美食汇集、ACL 康复友好节奏。">
+<script src="assets/vendor/tailwind.js"></script>
+<style>
+  :root{ --cinnabar:#B4432C; --ink:#2A2119; --gold:#C9962E; --moss:#3E6B5E; --paper:#FAF6EF; }
+  html{scroll-behavior:smooth}
+  body{background:var(--paper); color:var(--ink); font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",system-ui,sans-serif; -webkit-font-smoothing:antialiased;}
+  section{scroll-margin-top:84px}
+  .glass{background:rgba(255,255,255,.72); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); border-bottom:1px solid rgba(42,33,25,.08)}
+  .card{background:#fff; border:1px solid rgba(42,33,25,.08); border-radius:1.25rem; box-shadow:0 6px 24px rgba(42,33,25,.06)}
+  .chip{display:inline-flex; align-items:center; gap:.25rem; padding:.2rem .6rem; border-radius:999px; font-size:.72rem; font-weight:600; white-space:nowrap}
+  .chip-red{background:#FBE9E3; color:var(--cinnabar)}
+  .chip-green{background:#E7F0EC; color:var(--moss)}
+  .chip-gold{background:#F7EED9; color:#8A6414}
+  .chip-ink{background:#EDE8E1; color:#5C4A3A}
+  /* ===== Day 深色横幅高亮点亮头部 ===== */
+  .day-banner{display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+    background:linear-gradient(120deg,#2A2119 0%,#3B2E21 100%);
+    border-radius:18px; padding:18px 22px; margin-bottom:6px;
+    box-shadow:0 8px 24px rgba(42,33,25,.18)}
+  .day-num{font-size:28px; font-weight:900; color:#FFF7E8; letter-spacing:-.01em; line-height:1; white-space:nowrap}
+  .day-date{background:var(--day); color:#fff; padding:.28rem .75rem; border-radius:999px; font-size:.8rem; font-weight:700; white-space:nowrap}
+  .day-text{flex:1 1 220px; min-width:0}
+  .day-title{font-size:20px; font-weight:900; color:#FFF7E8; line-height:1.2}
+  .day-sub{font-size:12.5px; color:#C9BCA5; margin-top:4px; line-height:1.5}
+  @media (min-width:768px){ .day-title{font-size:24px} }
+  .day-banner .chip{background:rgba(255,255,255,.14); color:#F5EEDF}
+  .tagline{letter-spacing:.14em}
+  .hero-grad{background:linear-gradient(180deg,rgba(24,16,10,.25) 0%,rgba(24,16,10,.55) 55%,rgba(24,16,10,.88) 100%)}
+  .route-arrow::after{content:"→"; position:absolute; right:-1.1rem; top:50%; transform:translateY(-50%); color:var(--gold); font-weight:700}
+  @media (max-width:640px){ .route-arrow::after{content:"↓"; right:50%; top:auto; bottom:-1.15rem; transform:translateX(50%)} }
+  .zebra tr:nth-child(even){background:#F8F3EA}
+  .zebra th{background:var(--ink); color:#F5EEDF; font-weight:600}
+  .day-pill{min-width:56px; min-height:44px; display:inline-flex; align-items:center; justify-content:center; border-radius:999px; font-weight:600; transition:all .2s}
+  .day-pill.active{background:var(--cinnabar); color:#fff; box-shadow:0 4px 14px rgba(180,67,44,.35)}
+  .timeline-dot{position:relative}
+  article[data-day]{scroll-margin-top:150px}
+  .photo-fallback{background:linear-gradient(135deg,#8C6A52,#B4432C); display:flex; align-items:center; justify-content:center; color:#FFF3E6; font-weight:600}
+  img{max-width:100%}
+  .shadow-soft{box-shadow:0 10px 34px rgba(42,33,25,.12)}
+  .btn-tap{min-height:44px; display:inline-flex; align-items:center; justify-content:center; gap:.35rem; border-radius:.8rem; font-weight:600; transition:transform .12s, box-shadow .2s}
+  .btn-tap:active{transform:scale(.97)}
+  /* 结构化信息行（每日行程） */
+  .kv{flex:none; width:3.6em; font-weight:700; color:var(--gold); letter-spacing:.02em}
+  .note{display:block; margin-top:.5rem; border-radius:.6rem; padding:.45rem .7rem; font-size:.8125rem; line-height:1.65; border-left:3px solid}
+  .note-gold{background:#F7EED9; border-color:var(--gold)}
+  .note-moss{background:#E7F0EC; border-color:var(--moss)}
+  .note-red{background:#FBE9E3; border-color:var(--cinnabar)}
+  .note-ink{background:#EDE8E1; border-color:#8C7B68}
+  .tl-item{border-radius:.9rem; background:#fff; border:1px solid rgba(42,33,25,.07); box-shadow:0 2px 10px rgba(42,33,25,.05); padding:.95rem 1rem}
+  @media (min-width:768px){ .tl-item{padding:1.1rem 1.25rem} }
+</style>
+</head>
+<body class="antialiased">
+
+<!-- ============ 玻璃拟态导航 ============ -->
+<nav class="glass fixed top-0 left-0 right-0 z-50">
+  <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-3">
+    <div class="flex items-center gap-2 min-w-0">
+      <span class="w-8 h-8 rounded-lg flex items-center justify-center shrink-0" style="background:var(--cinnabar)">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-5.6-7-11a7 7 0 1 1 14 0c0 5.4-7 11-7 11Z" fill="#FFF3E6"/><circle cx="12" cy="10" r="2.4" fill="#B4432C"/></svg>
+      </span>
+      <span class="font-bold truncate text-[15px]">镇江·极致奢享深度游</span>
+    </div>
+    <div class="hidden md:flex items-center gap-1 text-sm font-medium text-stone-700">
+      <a href="#overview" class="px-3 py-2 rounded-lg hover:bg-black/5">行程总览</a>
+      <a href="#days" class="px-3 py-2 rounded-lg hover:bg-black/5">每日行程</a>
+      <a href="#food" class="px-3 py-2 rounded-lg hover:bg-black/5">美食图鉴</a>
+      <a href="#booking" class="px-3 py-2 rounded-lg hover:bg-black/5">预约清单</a>
+      <a href="#tips" class="px-3 py-2 rounded-lg hover:bg-black/5">行前须知</a>
+    </div>
+    <button onclick="toast()" class="btn-tap px-4 text-sm text-white shadow-soft" style="background:var(--cinnabar)">下载 PDF</button>
+  </div>
+</nav>
+
+<!-- ============ 英雄横幅 ============ -->
+<header class="relative mt-16 h-[78vh] min-h-[520px] overflow-hidden">
+  <img src="assets/img/xijindu-night.jpg" alt="镇江·西津渡古街夜景：昭关石塔与灯笼" class="absolute inset-0 w-full h-full object-cover">
+  <div class="hero-grad absolute inset-0"></div>
+  <div class="absolute inset-0 flex flex-col justify-end max-w-6xl mx-auto px-5 pb-14 w-full">
+    <p class="tagline text-[#E8C988] text-xs md:text-sm font-semibold mb-3">2026.10.3 – 10.6 · 中国江苏镇江 · 4天3夜深度自由行</p>
+    <h1 class="text-white font-black leading-tight text-3xl md:text-5xl max-w-3xl">三山一渡 · 半城醋香<br>一场不赶路的江南慢旅</h1>
+    <p class="text-white/85 mt-4 max-w-2xl text-sm md:text-base leading-relaxed">沿长江由西向东逐片推进，零折返；国宝早茶与水晶肴肉每日不重样；全程平地缓行、午后留白，为 ACL 术后康复中的旅伴量身定制节奏。</p>
+    <div class="flex flex-wrap gap-2 mt-5">
+      <span class="chip chip-gold">4 天 3 夜 · 全程国庆黄金周</span>
+      <span class="chip chip-gold">4 大地理片区 · 顺路零折返</span>
+      <span class="chip chip-gold">10 大国宝美食 · 名店对照</span>
+      <span class="chip chip-gold">3 晚连住滨江 · 行李零搬运</span>
+    </div>
+  </div>
+</header>
+
+<!-- ============ 天数切换胶囊 ============ -->
+<div id="days" class="sticky top-16 z-40 py-3" style="background:rgba(250,246,239,.92); backdrop-filter:blur(10px); border-bottom:1px solid rgba(42,33,25,.06)">
+  <div class="max-w-6xl mx-auto px-4 flex items-center gap-2 overflow-x-auto">
+    <span class="text-xs font-bold text-stone-500 shrink-0 mr-1">筛选天数</span>
+    <button class="day-pill active" data-day="all" onclick="filterDay('all',this)" style="background:var(--cinnabar);color:#fff">全部</button>
+    <button class="day-pill" data-day="1" onclick="filterDay('1',this)" style="background:#F1E9DD">Day 1</button>
+    <button class="day-pill" data-day="2" onclick="filterDay('2',this)" style="background:#F1E9DD">Day 2</button>
+    <button class="day-pill" data-day="3" onclick="filterDay('3',this)" style="background:#F1E9DD">Day 3</button>
+    <button class="day-pill" data-day="4" onclick="filterDay('4',this)" style="background:#F1E9DD">Day 4</button>
+    <span class="text-xs text-stone-400 ml-auto shrink-0 hidden md:block">点击胶囊仅显示当天 · 全部为默认</span>
+  </div>
+</div>
+
+<main class="max-w-6xl mx-auto px-4">
+
+<!-- ============ 行程总览可视化 ============ -->
+<section id="overview" class="py-12">
+  <h2 class="text-2xl md:text-3xl font-black flex items-center gap-3"><span class="w-1.5 h-7 rounded" style="background:var(--cinnabar)"></span>行程总览 · 沿江四片区的顺路推进</h2>
+  <p class="text-sm text-stone-500 mt-2 mb-6">每日只在一个地理片区深耕，沿长江单向推进、绝不折返；换宿为零（3 晚连住），全程打车动线均 ≤ 30 分钟。</p>
+
+  <div class="card p-5 md:p-7">
+    <p class="text-xs font-semibold text-stone-400 mb-3">▲ 四片区地理位置 · 真实底图（Esri World Street Map / © OpenStreetMap contributors）· 圈定范围为示意</p>
+
+    <!-- 地理位置示意图（真实地图底图 + 片区圈定） -->
+    <div class="rounded-2xl overflow-hidden border border-black/5 mb-7 relative" style="background:#FBF7EE; aspect-ratio:1152/896">
+      <img src="assets/img/zhenjiang-map.jpg" alt="镇江市真实地图底图" class="absolute inset-0 w-full h-full object-fill" onerror="this.style.display='none'">
+      <svg viewBox="0 0 1152 896" role="img" aria-label="镇江四个地理片区圈定示意图" class="absolute inset-0 w-full h-full" preserveAspectRatio="none">
+        <!-- 片区圈定（半透明椭圆 + 虚线） -->
+        <ellipse cx="305" cy="249" rx="86" ry="64" fill="#B4432C" opacity=".22" stroke="#B4432C" stroke-width="3" stroke-dasharray="8 6"/>
+        <ellipse cx="373" cy="266" rx="90" ry="66" fill="#C9962E" opacity=".24" stroke="#C9962E" stroke-width="3" stroke-dasharray="8 6"/>
+        <ellipse cx="411" cy="286" rx="82" ry="60" fill="#5C4A3A" opacity=".22" stroke="#5C4A3A" stroke-width="3" stroke-dasharray="8 6"/>
+        <ellipse cx="606" cy="152" rx="70" ry="52" fill="#3E6B5E" opacity=".26" stroke="#3E6B5E" stroke-width="3" stroke-dasharray="8 6"/>
+        <ellipse cx="490" cy="636" rx="70" ry="52" fill="#6B7280" opacity=".24" stroke="#6B7280" stroke-width="3" stroke-dasharray="8 6"/>
+
+        <!-- 金山 D2（红） -->
+        <g>
+          <circle cx="305" cy="249" r="13" fill="#B4432C"/>
+          <circle cx="305" cy="249" r="13" fill="none" stroke="#fff" stroke-width="2"/>
+          <text x="305" y="254" text-anchor="middle" font-size="12" font-weight="800" fill="#fff">2</text>
+          <text x="305" y="282" text-anchor="middle" font-size="14" font-weight="800" fill="#2A2119">金山</text>
+          <text x="305" y="296" text-anchor="middle" font-size="10" font-weight="700" fill="#B4432C">DAY 2 · 城区西端</text>
+        </g>
+
+        <!-- 西津渡 D1（金） -->
+        <g>
+          <circle cx="373" cy="260" r="13" fill="#8A6414"/>
+          <circle cx="373" cy="260" r="13" fill="none" stroke="#fff" stroke-width="2"/>
+          <text x="373" y="265" text-anchor="middle" font-size="12" font-weight="800" fill="#fff">1</text>
+          <text x="373" y="293" text-anchor="middle" font-size="14" font-weight="800" fill="#2A2119">西津渡</text>
+          <text x="373" y="307" text-anchor="middle" font-size="10" font-weight="700" fill="#8A6414">DAY 1 · 中西部滨江</text>
+        </g>
+
+        <!-- 大市口 D4（墨） -->
+        <g>
+          <circle cx="411" cy="286" r="13" fill="#5C4A3A"/>
+          <circle cx="411" cy="286" r="13" fill="none" stroke="#fff" stroke-width="2"/>
+          <text x="411" y="291" text-anchor="middle" font-size="12" font-weight="800" fill="#fff">4</text>
+          <text x="411" y="319" text-anchor="middle" font-size="14" font-weight="800" fill="#2A2119">大市口</text>
+          <text x="411" y="333" text-anchor="middle" font-size="10" font-weight="700" fill="#5C4A3A">DAY 4 · 市中心</text>
+        </g>
+
+        <!-- 焦山 D3（绿 · 江中岛） -->
+        <g>
+          <circle cx="606" cy="152" r="13" fill="#3E6B5E"/>
+          <circle cx="606" cy="152" r="13" fill="none" stroke="#fff" stroke-width="2"/>
+          <text x="606" y="157" text-anchor="middle" font-size="12" font-weight="800" fill="#fff">3</text>
+          <text x="606" y="192" text-anchor="middle" font-size="14" font-weight="800" fill="#2A2119">焦山</text>
+          <text x="606" y="206" text-anchor="middle" font-size="10" font-weight="700" fill="#3E6B5E">DAY 3 · 东北江中岛</text>
+        </g>
+
+        <!-- 醋博（灰 · 菱形） -->
+        <g>
+          <rect x="484" y="630" width="12" height="12" rx="3" transform="rotate(45 490 636)" fill="#6B7280"/>
+          <text x="490" y="668" text-anchor="middle" font-size="13" font-weight="800" fill="#2A2119">醋文化博物馆</text>
+          <text x="490" y="682" text-anchor="middle" font-size="10" font-weight="700" fill="#6B7280">DAY 3 午后 · 东南支线</text>
+        </g>
+
+        <!-- 北固山（DAY4 弹性） -->
+        <g>
+          <circle cx="511" cy="209" r="6" fill="#C9B58E"/>
+          <text x="511" y="226" text-anchor="middle" font-size="11" font-weight="800" fill="#8A6D4A">北固山</text>
+          <text x="511" y="238" text-anchor="middle" font-size="9" font-weight="700" fill="#B08C5F">DAY4 弹性</text>
+        </g>
+
+        <!-- 酒店 ★ 与 镇江站 ◆ -->
+        <g>
+          <text x="386" y="276" text-anchor="middle" font-size="16" fill="#C9962E">★</text>
+          <text x="386" y="292" text-anchor="middle" font-size="9" font-weight="700" fill="#8A6414">酒店3晚</text>
+          <rect x="369" y="282" width="12" height="12" rx="3" fill="#94A3B8"/>
+          <text x="375" y="292" text-anchor="middle" font-size="8" font-weight="800" fill="#fff">站</text>
+          <text x="375" y="308" text-anchor="middle" font-size="9" font-weight="700" fill="#5A6B78">镇江站</text>
+        </g>
+
+        <!-- 图例 -->
+        <g font-size="11">
+          <circle cx="60" cy="866" r="6" fill="#8A6414"/><text x="74" y="871" fill="#5A4A32">西津渡（D1）</text>
+          <circle cx="190" cy="866" r="6" fill="#B4432C"/><text x="204" y="871" fill="#5A4A32">金山（D2）</text>
+          <circle cx="290" cy="866" r="6" fill="#3E6B5E"/><text x="304" y="871" fill="#5A4A32">焦山（D3）</text>
+          <circle cx="390" cy="866" r="6" fill="#5C4A3A"/><text x="404" y="871" fill="#5A4A32">大市口（D4）</text>
+          <rect x="492" y="860" width="11" height="11" rx="3" transform="rotate(45 497.5 865.5)" fill="#6B7280"/><text x="512" y="871" fill="#5A4A32">醋博（D3午后）</text>
+          <text x="620" y="871" fill="#C9962E" font-size="14">★</text><text x="632" y="871" fill="#5A4A32">连住酒店</text>
+          <text x="728" y="871" fill="#94A3B8" font-size="12">◆</text><text x="740" y="871" fill="#5A4A32">高铁站</text>
+        </g>
+      </svg>
+      <p class="absolute bottom-1 right-2 text-[10px] text-stone-500/80 bg-white/70 px-1.5 py-0.5 rounded">底图 Esri / © OpenStreetMap contributors</p>
+    </div>
+
+    <!-- 四片区卡片（按日期顺序） -->
+    <div class="flex flex-wrap items-stretch gap-x-7 gap-y-8 md:gap-x-9">
+      <div class="route-arrow relative flex-1 min-w-[150px]">
+        <div class="rounded-xl p-4 h-full" style="background:#F7EED9">
+          <p class="text-[11px] font-bold text-[#8A6414] mb-1">DAY 1 · 片区②</p>
+          <p class="font-black text-lg">西津渡</p>
+          <p class="text-xs text-stone-600 mt-1 leading-relaxed">城区中西部<br>千年古渡 · 昭关石塔<br>镇江博物馆 · 领事馆</p>
+        </div>
+      </div>
+      <div class="route-arrow relative flex-1 min-w-[150px]">
+        <div class="rounded-xl p-4 h-full" style="background:#FBE9E3">
+          <p class="text-[11px] font-bold text-[#B4432C] mb-1">DAY 2 · 片区①</p>
+          <p class="font-black text-lg">金山</p>
+          <p class="text-xs text-stone-600 mt-1 leading-relaxed">城区西部<br>金山寺 · 天下第一泉<br>国宝早茶 · 白蛇传说</p>
+        </div>
+      </div>
+      <div class="route-arrow relative flex-1 min-w-[150px]">
+        <div class="rounded-xl p-4 h-full" style="background:#E7F0EC">
+          <p class="text-[11px] font-bold text-[#3E6B5E] mb-1">DAY 3 · 片区④</p>
+          <p class="font-black text-lg">焦山</p>
+          <p class="text-xs text-stone-600 mt-1 leading-relaxed">东北 · 江中岛<br>轮渡上岛 · 碑林定慧寺<br>午后醋文化博物馆（东南支线）</p>
+        </div>
+      </div>
+      <div class="relative flex-1 min-w-[150px]">
+        <div class="rounded-xl p-4 h-full" style="background:#EDE8E1">
+          <p class="text-[11px] font-bold text-[#5C4A3A] mb-1">DAY 4 · 片区③</p>
+          <p class="font-black text-lg">大市口</p>
+          <p class="text-xs text-stone-600 mt-1 leading-relaxed">市中心<br>面巷早茶 · 梦溪园<br>伴手礼采买 · 顺路返程</p>
+        </div>
+      </div>
+    </div>
+    <p class="text-xs text-stone-500 mt-5 leading-relaxed"><b>地理动线（零折返）：</b>金山（西）→ 西津渡 / 博物馆（中）→ 大市口（东）→ 焦山（东北·江中岛）→ 醋文化博物馆（东南支线）。每日只深耕一个片区，换宿为零（3 晚连住）。</p>
+    <div class="flex flex-wrap gap-2 mt-5 pt-5 border-t border-black/5 text-xs text-stone-600">
+      <span class="chip chip-green">全程平地优先 · 不登山</span>
+      <span class="chip chip-green">午后 1h 酒店午休留白</span>
+      <span class="chip chip-green">开门即到避峰（8:00–8:30）</span>
+      <span class="chip chip-green">傍晚西津渡夜景为点睛</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 每日行程 ============ -->
+<section class="py-6" id="schedule">
+  <h2 class="text-2xl md:text-3xl font-black flex items-center gap-3 mb-2"><span class="w-1.5 h-7 rounded" style="background:var(--gold)"></span>每日行程 · 逐小时时间轴</h2>
+  <p class="text-sm text-stone-500 mb-8">营业时间与票价均为 2026.9 联网核验数据；国庆假期为特殊开放时段，出行前请以景区当日通告为准。</p>
+
+  <!-- ===== Day 1 ===== -->
+  <article id="day-1" data-day="1" class="card p-5 md:p-8 mb-8">
+    <div class="day-banner" style="--day:#C9962E">
+      <span class="day-num">Day 1</span>
+      <span class="day-date">10/3（六）</span>
+      <div class="day-text">
+        <h3 class="day-title">千年渡口的初夜</h3>
+        <p class="day-sub">国庆黄金周第 3 天 · 片区：西津渡 / 长江路</p>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="chip">抵达日 · 松弛开篇</span>
+        <span class="chip">全程平路</span>
+        <span class="chip">夜景精华</span>
+      </div>
+    </div>
+    <div class="timeline-dot grid md:grid-cols-[86px_1fr] gap-x-5 gap-y-6 mt-6">
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">13:00</p>
+        <p class="text-[11px] text-stone-400">约 1.5h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="md:w-44 shrink-0 rounded-xl overflow-hidden">
+              <img src="assets/img/xijindu-day.jpg" alt="西津渡古街日景" class="w-full h-32 md:h-28 object-cover" onerror="imgFallback(this,'西津渡古街')">
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="font-black text-[15px] md:text-base">抵达镇江 · 入住滨江皇冠假日 <span class="chip chip-ink ml-1">3 晚连住</span></p>
+              <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+                <li class="flex gap-2"><span class="kv">地址</span><span>长江路 27 号 · 京口区（步行可达西津渡）</span></li>
+                <li class="flex gap-2"><span class="kv">交通</span><span>镇江站打车约 10 分钟 · 镇江南站约 25 分钟</span></li>
+                <li class="flex gap-2"><span class="kv">电话</span><span>0511-88959888 · 高德 4.7 分</span></li>
+              </ul>
+              <span class="note note-moss"><b>ACL：</b>午后抵达先办理入住、酒店内稍作休整再出门，避免带行李奔波。</span>
+              <a class="btn-tap mt-3 px-4 py-2 text-xs text-white shadow-soft" style="background:var(--moss)" href="https://uri.amap.com/search?keyword=%E9%95%87%E6%B1%9F%E5%85%86%E5%92%8C%E7%9A%87%E5%86%A0%E5%81%87%E6%97%A5%E9%85%92%E5%BA%97" target="_blank" rel="noopener">高德导航</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">14:30</p>
+        <p class="text-[11px] text-stone-400">约 2h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="md:w-44 shrink-0 rounded-xl overflow-hidden">
+              <img src="assets/img/xijindu-night.jpg" alt="西津渡昭关石塔夜景" class="w-full h-32 md:h-28 object-cover" onerror="imgFallback(this,'西津渡古街')">
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="font-black text-[15px] md:text-base">西津渡历史文化街区 <span class="chip chip-ink ml-1">街区免费</span><span class="chip chip-green ml-1">平地石板路</span></p>
+              <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+                <li class="flex gap-2"><span class="kv">地址</span><span>润州区西津渡街 25 号 · 马可·波罗登岸处</span></li>
+                <li class="flex gap-2"><span class="kv">营业</span><span>街区全天 · 收费小景点 9:00–17:00</span></li>
+                <li class="flex gap-2"><span class="kv">打卡</span><span>昭关石塔 → 一眼看千年（唐代渡口遗迹）→ 观音洞 → 救生会 → 五十三坡</span></li>
+              </ul>
+              <span class="note note-gold"><b>认路：</b>入口「西津渡」大牌坊，主街青石板路直行即达石塔；公交「西津渡」站。</span>
+              <a class="btn-tap mt-3 px-4 py-2 text-xs text-white shadow-soft" style="background:var(--moss)" href="https://uri.amap.com/search?keyword=%E8%A5%BF%E6%B4%A5%E6%B8%A1%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA" target="_blank" rel="noopener">高德导航</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">16:30</p>
+        <p class="text-[11px] text-stone-400">约 1h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">伯先公园 <span class="chip chip-ink ml-1">免费城市公园</span></p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">位置</span><span>西津渡南侧临伯先路</span></li>
+            <li class="flex gap-2"><span class="kv">看点</span><span>纪念民主革命先驱赵伯先的城市绿地，缓坡草坪平路好走</span></li>
+          </ul>
+          <span class="note note-moss"><b>ACL：</b>黄金周午后在此歇脚，平路为主，膝盖零负担。</span>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">17:30</p>
+        <p class="text-[11px] text-stone-400">约 1.5h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="md:w-44 shrink-0 rounded-xl overflow-hidden">
+              <img src="assets/img/food-tangbao.jpg" alt="蟹黄汤包" class="w-full h-32 md:h-28 object-cover" onerror="imgFallback(this,'蟹黄汤包')">
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="font-black text-[15px] md:text-base">晚餐 · 宴春酒楼（西津渡口店） <span class="chip chip-red ml-1">中华老字号</span></p>
+              <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+                <li class="flex gap-2"><span class="kv">地址</span><span>长江路 46 号 A 座 · 西津渡停车场入口处</span></li>
+                <li class="flex gap-2"><span class="kv">人均</span><span>80–120 元 · 建议 17:00 开餐即到避等位</span></li>
+                <li class="flex gap-2"><span class="kv">必点</span><span>水晶肴肉（配香醋姜丝）· 蟹黄汤包 · 锅盖面</span></li>
+              </ul>
+              <span class="note note-gold"><b>认路：</b>西津渡停车场入口旁，认明金字「宴春」老匾。</span>
+              <a class="btn-tap mt-3 px-4 py-2 text-xs text-white shadow-soft" style="background:var(--moss)" href="https://uri.amap.com/search?keyword=%E5%AE%B4%E6%98%A5%E9%85%92%E6%A5%BC%20%E8%A5%BF%E6%B4%A5%E6%B8%A1" target="_blank" rel="noopener">高德导航</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">19:00</p>
+        <p class="text-[11px] text-stone-400">约 1.5h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">西津渡夜景 · 长江路滨江步道回酒店</p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">看点</span><span>入夜昭关石塔亮灯、古街灯笼次第亮起，镇江最出片画面</span></li>
+            <li class="flex gap-2"><span class="kv">动线</span><span>沿长江路平路散步回酒店约 1.5km · 20:30 前回房</span></li>
+          </ul>
+          <span class="note note-ink"><b>提示：</b>江风微凉记得带外套 · 康复期不熬夜。</span>
+          <p class="text-xs text-stone-400 mt-3">今日步行约 4,500–6,000 步 · 节奏：★★☆☆☆</p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ===== Day 2 ===== -->
+  <article id="day-2" data-day="2" class="card p-5 md:p-8 mb-8">
+    <div class="day-banner" style="--day:#B4432C">
+      <span class="day-num">Day 2</span>
+      <span class="day-date">10/4（日）</span>
+      <div class="day-text">
+        <h3 class="day-title">金山白蛇传说与国宝早茶</h3>
+        <p class="day-sub">黄金周第 4 天 · 片区：金山（西）→ 西津渡 → 大市口（东）</p>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="chip">开门即到避峰</span>
+        <span class="chip">早茶开场</span>
+        <span class="chip">午后午休留白</span>
+      </div>
+    </div>
+    <div class="timeline-dot grid md:grid-cols-[86px_1fr] gap-x-5 gap-y-6 mt-6">
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">07:40</p>
+        <p class="text-[11px] text-stone-400">约 50min</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="md:w-44 shrink-0 rounded-xl overflow-hidden">
+              <img src="assets/img/food-guogaimian.jpg" alt="镇江锅盖面" class="w-full h-32 md:h-28 object-cover" onerror="imgFallback(this,'锅盖面')">
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="font-black text-[15px] md:text-base">毕士荣金山早茶 · 金山西津渡总店 <span class="chip chip-red ml-1">必吃</span></p>
+              <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+                <li class="flex gap-2"><span class="kv">地址</span><span>长江路 267-23 号（金山桥北侧翠堤春晓 23 栋底商）</span></li>
+                <li class="flex gap-2"><span class="kv">营业</span><span>每日 06:00–15:00 · 人均约 30 元</span></li>
+                <li class="flex gap-2"><span class="kv">电话</span><span>0511-85917777</span></li>
+                <li class="flex gap-2"><span class="kv">必点</span><span>长鱼（黄鳝）锅盖面 · 水晶肴肉 · 蟹黄汤包 · 京江脐配豆浆</span></li>
+              </ul>
+              <span class="note note-gold"><b>认路：</b>金山公园东门外金山桥北侧，认明蓝底金字「毕士荣金山早茶」招牌。</span>
+              <a class="btn-tap mt-3 px-4 py-2 text-xs text-white shadow-soft" style="background:var(--moss)" href="https://uri.amap.com/search?keyword=%E6%AF%95%E5%A3%AB%E8%8D%A3%E9%87%91%E5%B1%B1%E6%97%A9%E8%8C%B6" target="_blank" rel="noopener">高德导航</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">08:30</p>
+        <p class="text-[11px] text-stone-400">约 3h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="md:w-44 shrink-0 rounded-xl overflow-hidden">
+              <img src="assets/img/jinshan-temple.jpg" alt="镇江金山寺慈寿塔" class="w-full h-32 md:h-28 object-cover" onerror="imgFallback(this,'金山寺')">
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="font-black text-[15px] md:text-base">金山公园 · 金山寺 <span class="chip chip-ink ml-1">旺季门票 65 元</span></p>
+              <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+                <li class="flex gap-2"><span class="kv">地址</span><span>润州区金山路 62 号</span></li>
+                <li class="flex gap-2"><span class="kv">营业</span><span>旺季（3–5 / 9–11 月）约 8:00–17:30 · 16:30 停止售票/检票</span></li>
+                <li class="flex gap-2"><span class="kv">票价</span><span>65 元 · 60–69 岁半价 · 70 岁以上免票</span></li>
+                <li class="flex gap-2"><span class="kv">路线</span><span>金山文化广场 → 大雄宝殿 → 妙高台 → 白龙洞/法海洞（白蛇传说地）→ 天下第一泉中泠泉 → 芙蓉楼 → 金山湖畔</span></li>
+              </ul>
+              <span class="note note-gold"><b>认路：</b>「江天禅寺」石牌坊大门，入园即见金山湖。<b>开门即到</b>避开黄金周大部队。</span>
+              <span class="note note-moss"><b>ACL：</b>全程平路可走完精华；慈寿塔在山顶、台阶约百余级，山下仰望即可。</span>
+              <a class="btn-tap mt-3 px-4 py-2 text-xs text-white shadow-soft" style="background:var(--moss)" href="https://uri.amap.com/search?keyword=%E9%87%91%E5%B1%B1%E5%85%AC%E5%9B%AD" target="_blank" rel="noopener">高德导航</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">11:45</p>
+        <p class="text-[11px] text-stone-400">约 1h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">午餐 · 西津渡简餐（金山东行 5 分钟车程）</p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">方案A</span><span>西津渡内老字号再补一碗锅盖面</span></li>
+            <li class="flex gap-2"><span class="kv">方案B</span><span>西津渡沿街小吃：肴肉、锅贴、酒酿</span></li>
+          </ul>
+          <span class="note note-gold"><b>避峰：</b>黄金周午餐避开 12:00–13:00 高峰。</span>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">13:30</p>
+        <p class="text-[11px] text-stone-400">约 1h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">回酒店午休（康复黄金时段）</p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">安排</span><span>午后 1 小时平躺恢复 · 不想午休可选长江路江景咖啡馆小坐</span></li>
+          </ul>
+          <span class="note note-moss"><b>ACL：</b>术后第 8 周，午后留白是行程的「隐藏主角」。</span>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">14:45</p>
+        <p class="text-[11px] text-stone-400">约 2h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="md:w-44 shrink-0 rounded-xl overflow-hidden">
+              <img src="assets/img/museum-consulate.jpg" alt="镇江博物馆·英国领事馆旧址红砖拱廊" class="w-full h-32 md:h-28 object-cover" onerror="imgFallback(this,'镇江博物馆')">
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="font-black text-[15px] md:text-base">镇江博物馆 <span class="chip chip-ink ml-1">主馆免费 · 领事馆区 20 元</span></p>
+              <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+                <li class="flex gap-2"><span class="kv">地址</span><span>伯先路 85 号 · 国家一级博物馆</span></li>
+                <li class="flex gap-2"><span class="kv">营业</span><span>平日周二至周日 9:00–17:00（16:30 停止入馆）· 周一闭馆 · <b>国庆照常开放</b></span></li>
+                <li class="flex gap-2"><span class="kv">进馆</span><span>主馆刷身份证 / 社保卡直接进 · 领事馆旧址现场购票</span></li>
+                <li class="flex gap-2"><span class="kv">看点</span><span>青铜凤纹尊 · 近代开埠史 · 1890 年东印度式红砖建筑</span></li>
+              </ul>
+              <span class="note note-gold"><b>认路：</b>西津渡五十三坡上方，红砖拱廊欧式建筑群，门廊可见「1890」字样。</span>
+              <a class="btn-tap mt-3 px-4 py-2 text-xs text-white shadow-soft" style="background:var(--moss)" href="https://uri.amap.com/search?keyword=%E9%95%87%E6%B1%9F%E5%8D%9A%E7%89%A9%E9%A6%86" target="_blank" rel="noopener">高德导航</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">17:15</p>
+        <p class="text-[11px] text-stone-400">约 1h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">打车至大市口 · 逛苏宁广场 / 八佰伴</p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">目标</span><span>恒顺香醋礼盒 · 水晶肴肉真空装 · 锅盖面干面礼盒</span></li>
+            <li class="flex gap-2"><span class="kv">策略</span><span>先比价再买，或留到 Day 4 一起采购</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">18:30</p>
+        <p class="text-[11px] text-stone-400">约 1.5h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="md:w-44 shrink-0 rounded-xl overflow-hidden">
+              <img src="assets/img/food-yaorou.jpg" alt="水晶肴肉" class="w-full h-32 md:h-28 object-cover" onerror="imgFallback(this,'水晶肴肉')">
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="font-black text-[15px] md:text-base">晚餐 · 宴春酒楼老店（解放路 87 号） <span class="chip chip-red ml-1">百年发源店</span></p>
+              <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+                <li class="flex gap-2"><span class="kv">建议</span><span>17:30–18:00 开餐即到</span></li>
+                <li class="flex gap-2"><span class="kv">必点</span><span>非遗水晶肴肉 · 蟹黄汤包 · 加一道江蟹 / 时令菜</span></li>
+              </ul>
+              <span class="note note-gold"><b>时令：</b>十月正是镇江吃蟹季，配恒顺香醋一绝。</span>
+              <a class="btn-tap mt-3 px-4 py-2 text-xs text-white shadow-soft" style="background:var(--moss)" href="https://uri.amap.com/search?keyword=%E5%AE%B4%E6%98%A5%E9%85%92%E6%A5%BC%E8%80%81%E5%BA%97" target="_blank" rel="noopener">高德导航</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ===== Day 3 ===== -->
+  <article id="day-3" data-day="3" class="card p-5 md:p-8 mb-8">
+    <div class="day-banner" style="--day:#3E6B5E">
+      <span class="day-num">Day 3</span>
+      <span class="day-date">10/5（一）</span>
+      <div class="day-text">
+        <h3 class="day-title">江中浮玉焦山与醋香一城</h3>
+        <p class="day-sub">黄金周第 5 天 · 片区：焦山（东北）→ 醋文化博物馆（东南）单向推进</p>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="chip">轮渡上岛 · 岛内平地</span>
+        <span class="chip">室内冷气午后</span>
+        <span class="chip">江风大 · 带外套</span>
+      </div>
+    </div>
+    <div class="timeline-dot grid md:grid-cols-[86px_1fr] gap-x-5 gap-y-6 mt-6">
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">07:30</p>
+        <p class="text-[11px] text-stone-400">约 1h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">毕士荣金山早茶 · 焦山店（顺路早餐）</p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">地址</span><span>东吴路中南锦园西南门南 50 米</span></li>
+            <li class="flex gap-2"><span class="kv">营业</span><span>每日 06:00–13:30 · 电话 0511-83987777</span></li>
+            <li class="flex gap-2"><span class="kv">动线</span><span>就在去焦山的东吴路上，吃完直接进景区</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">08:30</p>
+        <p class="text-[11px] text-stone-400">约 3h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="md:w-44 shrink-0 rounded-xl overflow-hidden">
+              <img src="assets/img/jiaoshan-temple.jpg" alt="镇江焦山定慧寺" class="w-full h-32 md:h-28 object-cover" onerror="imgFallback(this,'焦山定慧寺')">
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="font-black text-[15px] md:text-base">焦山风景区 <span class="chip chip-ink ml-1">旺季 65 元 · 含轮渡</span></p>
+              <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+                <li class="flex gap-2"><span class="kv">地址</span><span>京口区东吴路 83 号</span></li>
+                <li class="flex gap-2"><span class="kv">营业</span><span>9–10 月 8:00–17:30 · 渡船 8:00–16:15（约 20 分钟一班）· 出园末班船 17:30</span></li>
+                <li class="flex gap-2"><span class="kv">路线</span><span>定慧寺（千年古刹）→ 焦山碑林 / 碑刻博物馆（《瘗鹤铭》「大字之祖」）→ 古炮台（鸦片战争遗迹）→ 御碑亭秋银杏</span></li>
+              </ul>
+              <span class="note note-gold"><b>认路：</b>东吴路尽头「焦山」大门，先乘渡轮约 5 分钟上岛。</span>
+              <span class="note note-moss"><b>ACL：</b>岛内地势平缓，是「三山」中对膝盖最友好的一座；万佛塔远观不登。</span>
+              <a class="btn-tap mt-3 px-4 py-2 text-xs text-white shadow-soft" style="background:var(--moss)" href="https://uri.amap.com/search?keyword=%E7%84%A6%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA" target="_blank" rel="noopener">高德导航</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">12:00</p>
+        <p class="text-[11px] text-stone-400">约 1h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">出岛午餐</p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">方案A</span><span>焦山周边简餐</span></li>
+            <li class="flex gap-2"><span class="kv">方案B</span><span>打车 15 分钟回大市口「面条一条街」吃锅盖面（邵顺兴 06:00–14:00 / 好再来 6:30–17:00，古更楼巷）</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">14:00</p>
+        <p class="text-[11px] text-stone-400">约 2.5h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="md:w-44 shrink-0 rounded-xl overflow-hidden">
+              <img src="assets/img/food-vinegar-yard.jpg" alt="恒顺醋文化博物馆晒醋陶坛场" class="w-full h-32 md:h-28 object-cover" onerror="imgFallback(this,'醋文化博物馆')">
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="font-black text-[15px] md:text-base">中国醋文化博物馆（4A） <span class="chip chip-ink ml-1">门票 30 元</span></p>
+              <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+                <li class="flex gap-2"><span class="kv">地址</span><span>丹徒区恒顺大道 60 号 · 从焦山打车约 25 分钟（顺东南方向）</span></li>
+                <li class="flex gap-2"><span class="kv">营业</span><span>全年 9:00–17:00（16:00 停止入园）· 电话 0511-85307790</span></li>
+                <li class="flex gap-2"><span class="kv">看点</span><span>醋史 · 固态分层发酵实景 · 晒醋陶坛场 · 现场品醋 · 商店伴手礼最全</span></li>
+              </ul>
+              <span class="note note-gold"><b>认路：</b>312 国道镇江—丹阳段恒顺工业园旁，认明「恒顺」大厂房 + 露天陶坛阵。</span>
+              <span class="note note-ink"><b>避峰：</b>室内为主，午后冷气充足、人流较缓，正合康复节奏。</span>
+              <a class="btn-tap mt-3 px-4 py-2 text-xs text-white shadow-soft" style="background:var(--moss)" href="https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E9%86%8B%E6%96%87%E5%8C%96%E5%8D%9A%E7%89%A9%E9%A6%86" target="_blank" rel="noopener">高德导航</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">16:45</p>
+        <p class="text-[11px] text-stone-400">约 1h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">返回市区 · 酒店休整</p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">动线</span><span>打车约 20 分钟回酒店</span></li>
+          </ul>
+          <span class="note note-ink"><b>提示：</b>傍晚江风凉，加件外套。</span>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">18:30</p>
+        <p class="text-[11px] text-stone-400">约 1.5h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">晚餐 · 时令选项</p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">东乡羊肉</span><span>红烧羊肉 / 羊肉汤，秋冬暖身首选</span></li>
+            <li class="flex gap-2"><span class="kv">江蟹季</span><span>十月当造，清蒸配香醋</span></li>
+            <li class="flex gap-2"><span class="kv">扬中河豚</span><span>务必选择持证资质餐厅并提前电话确认</span></li>
+          </ul>
+          <span class="note note-red"><b>红线：</b>长江禁捕后河豚均为养殖，仅限持证餐厅加工，严禁自行购买加工。</span>
+          <span class="note note-ink"><b>收尾：</b>餐后长江路滨江夜景散步。</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- ===== Day 4 ===== -->
+  <article id="day-4" data-day="4" class="card p-5 md:p-8 mb-8">
+    <div class="day-banner" style="--day:#5C4A3A">
+      <span class="day-num">Day 4</span>
+      <span class="day-date">10/6（二）</span>
+      <div class="day-text">
+        <h3 class="day-title">面巷早茶与顺路收官</h3>
+        <p class="day-sub">黄金周最后一日 · 片区：大市口 → 梦溪园 → 车站</p>
+      </div>
+      <div class="flex flex-wrap gap-2">
+        <span class="chip">弹性上午</span>
+        <span class="chip">伴手礼收官</span>
+        <span class="chip">体力自选</span>
+      </div>
+    </div>
+    <div class="timeline-dot grid md:grid-cols-[86px_1fr] gap-x-5 gap-y-6 mt-6">
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">08:00</p>
+        <p class="text-[11px] text-stone-400">约 1h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="md:w-44 shrink-0 rounded-xl overflow-hidden">
+              <img src="assets/img/food-guogaimian.jpg" alt="锅盖面" class="w-full h-32 md:h-28 object-cover" onerror="imgFallback(this,'锅盖面')">
+            </div>
+            <div class="flex-1 min-w-0">
+              <p class="font-black text-[15px] md:text-base">大市口「面条一条街」早茶 <span class="chip chip-red ml-1">必吃</span></p>
+              <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+                <li class="flex gap-2"><span class="kv">地址</span><span>中山东路万祥商厦后巷（大娘水饺旁巷内）</span></li>
+                <li class="flex gap-2"><span class="kv">名店</span><span>邵顺兴（古更楼巷 1-101 号 · 06:00–14:00 · 0511-85022240）· 好再来（古更楼巷 1 幢 105 室 · 6:30–17:00）</span></li>
+                <li class="flex gap-2"><span class="kv">话术</span><span>浇头自选长鱼 / 腰花 / 肴肉 / 大肉 · 点「双料」即两种浇头</span></li>
+              </ul>
+              <span class="note note-gold"><b>认路：</b>巷口即见多家锅盖面招牌连排。</span>
+              <a class="btn-tap mt-3 px-4 py-2 text-xs text-white shadow-soft" style="background:var(--moss)" href="https://uri.amap.com/search?keyword=%E9%82%B5%E9%A1%BA%E5%85%B4%E9%94%85%E7%9B%96%E9%9D%A2" target="_blank" rel="noopener">高德导航</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">09:30</p>
+        <p class="text-[11px] text-stone-400">约 1h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">梦溪园 · 沈括纪念室 <span class="chip chip-ink ml-1">免费</span></p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">地址</span><span>京口区梦溪园巷 21 号 · 距大市口步行约 15 分钟平地</span></li>
+            <li class="flex gap-2"><span class="kv">营业</span><span>节假日 9:00–17:00（16:30 停止入场）</span></li>
+            <li class="flex gap-2"><span class="kv">看点</span><span>《梦溪笔谈》作者沈括故居 · 免费人少</span></li>
+          </ul>
+          <a class="btn-tap mt-3 px-4 py-2 text-xs text-white shadow-soft" style="background:var(--moss)" href="https://uri.amap.com/search?keyword=%E6%A2%A6%E6%BA%AA%E5%9B%AD%20%E6%B2%88%E6%8B%AC" target="_blank" rel="noopener">高德导航</a>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">10:30</p>
+        <p class="text-[11px] text-stone-400">弹性 1.5h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">弹性选项（二选一）</p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">方案A</span><span>苏宁广场咖啡小憩，把伴手礼买齐</span></li>
+            <li class="flex gap-2"><span class="kv">方案B</span><span>体力允许则打车 5 分钟至北固山（旺季 40 元 · 8:30–16:30）：北固楼远眺长江「满眼风光北固楼」</span></li>
+          </ul>
+          <span class="note note-moss"><b>ACL：</b>北固山台阶较多，视膝盖状况决定是否登楼，或仅在山下北固湾广场远眺。</span>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">12:30</p>
+        <p class="text-[11px] text-stone-400">约 1h</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">退房 · 行李寄存前台 · 午餐</p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">安排</span><span>12:00 前退房，行李寄存后轻装用午餐（面巷或酒店餐厅）</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-left md:text-right">
+        <p class="font-black text-lg">13:30</p>
+      </div>
+      <div class="md:pl-4">
+        <div class="tl-item">
+          <p class="font-black text-[15px] md:text-base">打车至镇江站 / 镇江南站返程</p>
+          <ul class="mt-2.5 space-y-1.5 text-[13px] leading-relaxed">
+            <li class="flex gap-2"><span class="kv">动线</span><span>酒店至镇江站约 10–15 分钟</span></li>
+            <li class="flex gap-2"><span class="kv">伴手礼</span><span>恒顺香醋（小瓶礼盒）· 水晶肴肉（真空）· 锅盖面干面礼盒 · 京江脐 · 麻油馓子</span></li>
+          </ul>
+          <p class="text-xs text-stone-400 mt-3">今日步行约 3,500–5,000 步 · 节奏：★★☆☆☆</p>
+        </div>
+      </div>
+    </div>
+  </article>
+</section>
+
+<!-- ============ 美食图鉴 ============ -->
+<section id="food" class="py-12">
+  <h2 class="text-2xl md:text-3xl font-black flex items-center gap-3 mb-2"><span class="w-1.5 h-7 rounded" style="background:var(--cinnabar)"></span>美食全图鉴 · 十大国宝味道与点餐话术</h2>
+  <p class="text-sm text-stone-500 mb-8">「镇江三怪」：香醋摆不坏、肴肉不当菜、面锅里面煮锅盖。</p>
+  <div class="grid gap-5" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+
+    <div class="card overflow-hidden">
+      <div class="h-44 overflow-hidden"><img src="assets/img/food-guogaimian.jpg" alt="锅盖面" class="w-full h-full object-cover" onerror="imgFallback(this,'锅盖面')"></div>
+      <div class="p-4">
+        <p class="font-black">① 锅盖面 <span class="chip chip-red ml-1">非遗 · 必吃</span></p>
+        <p class="text-xs text-stone-500 mt-1">煮面时漂杉木锅盖压住翻滚的面条，「面锅里面煮锅盖」。</p>
+        <p class="text-sm mt-2"><b>名店：</b>邵顺兴、好再来、毕士荣、宴春楼</p>
+        <p class="text-xs text-stone-600 mt-1"><b>点餐话术：</b>「长鱼面，双料，紧汤」＝黄鳝浇头加一种浇头、汤少味浓；浇头自选腰花/肴肉/大肉。</p>
+      </div>
+    </div>
+
+    <div class="card overflow-hidden">
+      <div class="h-44 overflow-hidden"><img src="assets/img/food-yaorou.jpg" alt="水晶肴肉" class="w-full h-full object-cover" onerror="imgFallback(this,'水晶肴肉')"></div>
+      <div class="p-4">
+        <p class="font-black">② 水晶肴肉 <span class="chip chip-red ml-1">江苏十大名菜</span></p>
+        <p class="text-xs text-stone-500 mt-1">皮白肉红、卤冻透明如水晶，300 年历史「肴肉不当菜」。</p>
+        <p class="text-sm mt-2"><b>名店：</b>宴春酒楼（解放路老店 / 西津渡口店）</p>
+        <p class="text-xs text-stone-600 mt-1"><b>吃法：</b>配姜丝 + 镇江香醋，一小碟蘸着吃，早茶冷盘主角。</p>
+      </div>
+    </div>
+
+    <div class="card overflow-hidden">
+      <div class="h-44 overflow-hidden"><img src="assets/img/food-vinegar-jars.jpg" alt="恒顺香醋陶坛" class="w-full h-full object-cover" onerror="imgFallback(this,'镇江香醋')"></div>
+      <div class="p-4">
+        <p class="font-black">③ 镇江香醋 <span class="chip chip-gold ml-1">香醋摆不坏</span></p>
+        <p class="text-xs text-stone-500 mt-1">糯米固态分层发酵 + 露天陶坛陈酿，「酸而不涩、香而微甜」。</p>
+        <p class="text-sm mt-2"><b>体验：</b>中国醋文化博物馆品鉴 + 恒顺专卖</p>
+        <p class="text-xs text-stone-600 mt-1"><b>暗号：</b>老镇江「晨起抿醋、吃蟹蘸醋」，吃肴肉/汤包必配。</p>
+      </div>
+    </div>
+
+    <div class="card overflow-hidden">
+      <div class="h-44 overflow-hidden"><img src="assets/img/food-tangbao.jpg" alt="蟹黄汤包" class="w-full h-full object-cover" onerror="imgFallback(this,'蟹黄汤包')"></div>
+      <div class="p-4">
+        <p class="font-black">④ 蟹黄汤包</p>
+        <p class="text-xs text-stone-500 mt-1">两百多年历史，蟹油猪肉入馅，皮薄汤足。</p>
+        <p class="text-sm mt-2"><b>名店：</b>宴春酒楼、毕士荣早茶</p>
+        <p class="text-xs text-stone-600 mt-1"><b>口诀：</b>「轻轻提、慢慢移、先开窗、后喝汤」——先咬小口吸汤再蘸醋。</p>
+      </div>
+    </div>
+
+    <div class="card overflow-hidden">
+      <div class="h-44 overflow-hidden"><img src="assets/img/food-jingjiangqi.jpg" alt="京江脐烤饼" class="w-full h-full object-cover" onerror="imgFallback(this,'京江脐')"></div>
+      <div class="p-4">
+        <p class="font-black">⑤ 京江脐（金刚脐）</p>
+        <p class="text-xs text-stone-500 mt-1">六角形烤饼，形似金刚肚脐，早茶配豆浆的经典。</p>
+        <p class="text-sm mt-2"><b>去处：</b>毕士荣早茶、镇江老字号点心铺</p>
+        <p class="text-xs text-stone-600 mt-1"><b>吃法：</b>趁热掰开，泡豆浆或干吃，香甜松软。</p>
+      </div>
+    </div>
+
+    <div class="card overflow-hidden">
+      <div class="h-44 overflow-hidden"><img src="assets/img/food-sazi.jpg" alt="麻油馓子" class="w-full h-full object-cover" onerror="imgFallback(this,'麻油馓子')"></div>
+      <div class="p-4">
+        <p class="font-black">⑥ 麻油馓子</p>
+        <p class="text-xs text-stone-500 mt-1">细面油炸成环，香脆可口，镇江茶食代表。</p>
+        <p class="text-sm mt-2"><b>去处：</b>西津渡茶食店、大市口老字号</p>
+        <p class="text-xs text-stone-600 mt-1"><b>提示：</b>易碎，适合当伴手礼轻拿轻放。</p>
+      </div>
+    </div>
+
+    <div class="card overflow-hidden">
+      <div class="h-44 overflow-hidden"><img src="assets/img/food-crab.jpg" alt="清蒸大闸蟹蟹黄" class="w-full h-full object-cover" onerror="imgFallback(this,'江蟹')"></div>
+      <div class="p-4">
+        <p class="font-black">⑦ 江蟹（秋令限定）</p>
+        <p class="text-xs text-stone-500 mt-1">十月膏满黄肥，长江水系的秋日馈赠。</p>
+        <p class="text-sm mt-2"><b>去处：</b>宴春楼等本地食肆（时令菜）</p>
+        <p class="text-xs text-stone-600 mt-1"><b>吃法：</b>清蒸配姜丝香醋，一蟹一碟醋。</p>
+      </div>
+    </div>
+
+    <div class="card overflow-hidden">
+      <div class="h-44 overflow-hidden"><img src="assets/img/food-lamb.jpg" alt="东乡红烧羊肉" class="w-full h-full object-cover" onerror="imgFallback(this,'东乡羊肉')"></div>
+      <div class="p-4">
+        <p class="font-black">⑧ 东乡羊肉 <span class="chip chip-gold ml-1">冬令时鲜</span></p>
+        <p class="text-xs text-stone-500 mt-1">镇江东乡风味，红烧羊肉酥烂入味。</p>
+        <p class="text-sm mt-2"><b>去处：</b>镇江老字号羊肉馆</p>
+        <p class="text-xs text-stone-600 mt-1"><b>提示：</b>10 月初为开季，点餐时问「今日是否上新」。 </p>
+      </div>
+    </div>
+
+    <div class="card overflow-hidden">
+      <div class="h-44 overflow-hidden"><img src="assets/img/food-pufferfish.jpg" alt="红烧河豚" class="w-full h-full object-cover" onerror="imgFallback(this,'扬中河豚')"></div>
+      <div class="p-4">
+        <p class="font-black">⑨ 扬中河豚 <span class="chip chip-red ml-1">持证餐厅</span></p>
+        <p class="text-xs text-stone-500 mt-1">长江三鲜之首，现为养殖河豚。</p>
+        <p class="text-sm mt-2"><b>去处：</b>持证资质餐厅（务必核实）</p>
+        <p class="text-xs text-stone-600 mt-1"><b>红线：</b>河豚仅限持证餐厅加工，严禁自行购买加工。</p>
+      </div>
+    </div>
+
+    <div class="card overflow-hidden">
+      <div class="h-44 overflow-hidden"><img src="assets/img/food-dryshreds.jpg" alt="鸡汁大煮干丝" class="w-full h-full object-cover" onerror="imgFallback(this,'鸡汁干丝')"></div>
+      <div class="p-4">
+        <p class="font-black">⑩ 鸡汁干丝</p>
+        <p class="text-xs text-stone-500 mt-1">淮扬名菜，刀工干丝 + 鸡汤慢煮，绵软清鲜。</p>
+        <p class="text-sm mt-2"><b>去处：</b>宴春楼、西津渡老字号餐馆</p>
+        <p class="text-xs text-stone-600 mt-1"><b>点法：</b>「来份大煮干丝」——淮扬馆通用叫法。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 预约清单 ============ -->
+<section id="booking" class="py-12">
+  <h2 class="text-2xl md:text-3xl font-black flex items-center gap-3 mb-2"><span class="w-1.5 h-7 rounded" style="background:var(--gold)"></span>预约与订位清单</h2>
+  <p class="text-sm text-stone-500 mb-6">国庆黄金周资源紧张，以下按「需抢 / 建议早订 / 现场即办」分级。</p>
+  <div class="card overflow-hidden">
+    <div class="overflow-x-auto">
+      <table class="zebra w-full text-sm min-w-[720px]">
+        <thead><tr><th class="text-left px-4 py-3">项目</th><th class="text-left px-4 py-3">是否需预约</th><th class="text-left px-4 py-3">官方 / 可靠渠道</th><th class="text-left px-4 py-3">建议提前</th><th class="text-left px-4 py-3">备注</th></tr></thead>
+        <tbody>
+          <tr><td class="px-4 py-3 font-semibold">高铁往返票</td><td class="px-4 py-3"><span class="chip chip-red">需抢</span></td><td class="px-4 py-3">铁路 12306（官方）</td><td class="px-4 py-3">提前 15 天开售，<b>立即锁定</b></td><td class="px-4 py-3">上海虹桥→镇江约 1–1.5 小时；黄金周票源紧，往返一起买</td></tr>
+          <tr><td class="px-4 py-3 font-semibold">酒店（皇冠假日等）</td><td class="px-4 py-3"><span class="chip chip-red">建议早订</span></td><td class="px-4 py-3">IHG 官方 / 携程 / 飞猪</td><td class="px-4 py-3">7–14 天前</td><td class="px-4 py-3">国庆房价上浮，3 晚连住不换宿</td></tr>
+          <tr><td class="px-4 py-3 font-semibold">金山 / 焦山 / 北固山</td><td class="px-4 py-3"><span class="chip chip-gold">无需抢票</span></td><td class="px-4 py-3">镇江文旅官方小程序 / 美团 / 携程 / 现场</td><td class="px-4 py-3">在线购免排队</td><td class="px-4 py-3">旺季金山 65 / 焦山 65（含轮渡）/ 北固山 40；60–69 岁半价，70+ 免票</td></tr>
+          <tr><td class="px-4 py-3 font-semibold">镇江博物馆</td><td class="px-4 py-3"><span class="chip chip-green">免预约</span></td><td class="px-4 py-3">刷身份证 / 社保卡进馆</td><td class="px-4 py-3">—</td><td class="px-4 py-3">主馆免费；领事馆旧址购票 20 元；国庆照常开放，节后调休闭馆（以官网通告为准）</td></tr>
+          <tr><td class="px-4 py-3 font-semibold">中国醋文化博物馆</td><td class="px-4 py-3"><span class="chip chip-green">免预约</span></td><td class="px-4 py-3">现场购票</td><td class="px-4 py-3">—</td><td class="px-4 py-3">30 元 · 全年 9:00–17:00 · 16:00 停止入园</td></tr>
+          <tr><td class="px-4 py-3 font-semibold">宴春楼 / 毕士荣早茶</td><td class="px-4 py-3"><span class="chip chip-gold">无预约</span></td><td class="px-4 py-3">到店排位</td><td class="px-4 py-3">开餐即到</td><td class="px-4 py-3">午 11:00、晚 17:00 开餐即到；12:30 后需等位</td></tr>
+          <tr><td class="px-4 py-3 font-semibold">河豚（如选择）</td><td class="px-4 py-3"><span class="chip chip-red">先核实</span></td><td class="px-4 py-3">持证餐厅电话确认</td><td class="px-4 py-3">1–2 天前</td><td class="px-4 py-3">仅限持证餐厅；禁捕后均为养殖河豚</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 行前须知 ============ -->
+<section id="tips" class="py-12">
+  <h2 class="text-2xl md:text-3xl font-black flex items-center gap-3 mb-2"><span class="w-1.5 h-7 rounded" style="background:var(--moss)"></span>行前必备实用须知</h2>
+  <p class="text-sm text-stone-500 mb-6">国内游无需签证与入境卡；以下按证件、交通、支付、气候、法令逐项说明。</p>
+  <div class="grid gap-5" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+    <div class="card p-5">
+      <p class="font-black">证件</p>
+      <p class="text-sm text-stone-600 mt-2">内地居民：<b>身份证</b>（高铁实名 + 景区购票 + 博物馆刷闸三合一）。港澳台及外籍旅客：台胞证 / 回乡证 / 护照。全程无需签证、无入境卡。</p>
+    </div>
+    <div class="card p-5">
+      <p class="font-black">大交通 · 高铁</p>
+      <p class="text-sm text-stone-600 mt-2">上海虹桥 → 镇江约 1–1.5 小时（沪宁城际 / 京沪高铁，<b>沪宁城际多停「镇江站」</b>，离市区近）。返程同理，预留 30 分钟取票安检。</p>
+    </div>
+    <div class="card p-5">
+      <p class="font-black">市内交通 · 支付</p>
+      <p class="text-sm text-stone-600 mt-2">镇江无地铁。公交 2 元，支付宝 / 微信乘车码通用；市区打车便捷（滴滴 / 高德打车），单程一般 10–30 元，本行程 4 天打车总预算约 150–250 元。</p>
+    </div>
+    <div class="card p-5">
+      <p class="font-black">现金需求</p>
+      <p class="text-sm text-stone-600 mt-2">支付宝 / 微信覆盖几乎全部商户；<b>备 200–300 元零钱</b>应付早茶小店、街边摊与应急。</p>
+    </div>
+    <div class="card p-5">
+      <p class="font-black">气候穿着（10 月上旬）</p>
+      <p class="text-sm text-stone-600 mt-2">常年白天最高约 23℃、夜间约 15℃，10 月平均气温 18.5℃（镇江市统计年鉴）。昼夜温差大、江边风大、秋雨说来就来：<b>洋葱式穿搭 + 薄外套 + 折叠伞</b>。</p>
+    </div>
+    <div class="card p-5">
+      <p class="font-black">插座 · 电压</p>
+      <p class="text-sm text-stone-600 mt-2">国内标准 220V / 50Hz，两脚扁插（A 型），手机相机充电器通用，无需转换头。</p>
+    </div>
+    <div class="card p-5">
+      <p class="font-black">退税</p>
+      <p class="text-sm text-stone-600 mt-2">国内游无消费税退税环节，无需办理任何退税手续。</p>
+    </div>
+    <div class="card p-5">
+      <p class="font-black">法令红线与禁忌</p>
+      <p class="text-sm text-stone-600 mt-2">室内公共场所与景区<b>全面禁烟</b>；公交车内勿饮食；博物馆勿用闪光灯、勿触摸展品；碑刻文物<b>勿刻划</b>；河豚仅限持证餐厅加工；打车用平台计价。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 防迷路速查 ============ -->
+<section id="antilost" class="py-12">
+  <h2 class="text-2xl md:text-3xl font-black flex items-center gap-3 mb-2"><span class="w-1.5 h-7 rounded" style="background:var(--cinnabar)"></span>视觉防迷路速查表</h2>
+  <p class="text-sm text-stone-500 mb-6">每个点位「认明什么 + 怎么去」一句话搞定，到站不迷路。</p>
+  <div class="card overflow-hidden">
+    <div class="overflow-x-auto">
+      <table class="zebra w-full text-sm min-w-[720px]">
+        <thead><tr><th class="text-left px-4 py-3">点位</th><th class="text-left px-4 py-3">认明特征</th><th class="text-left px-4 py-3">最近站 / 抵达</th><th class="text-left px-4 py-3">一键高德</th></tr></thead>
+        <tbody>
+          <tr><td class="px-4 py-3 font-semibold">金山公园</td><td class="px-4 py-3">「江天禅寺」石牌坊大门 + 金山湖</td><td class="px-4 py-3">公交「金山公园」站 / 打车直达</td><td class="px-4 py-3"><a class="text-[#B4432C] underline" href="https://uri.amap.com/search?keyword=%E9%87%91%E5%B1%B1%E5%85%AC%E5%9B%AD" target="_blank" rel="noopener">导航</a></td></tr>
+          <tr><td class="px-4 py-3 font-semibold">西津渡古街</td><td class="px-4 py-3">「西津渡」大牌坊 → 昭关石塔（刻「昭关」石坊 + 白色喇嘛塔）</td><td class="px-4 py-3">公交「西津渡」站</td><td class="px-4 py-3"><a class="text-[#B4432C] underline" href="https://uri.amap.com/search?keyword=%E8%A5%BF%E6%B4%A5%E6%B8%A1%E5%8E%86%E5%8F%B2%E6%96%87%E5%8C%96%E8%A1%97%E5%8C%BA" target="_blank" rel="noopener">导航</a></td></tr>
+          <tr><td class="px-4 py-3 font-semibold">镇江博物馆</td><td class="px-4 py-3">红砖拱廊欧式建筑群（1890），五十三坡上方</td><td class="px-4 py-3">伯先路 85 号 · 西津渡步行 5 分钟</td><td class="px-4 py-3"><a class="text-[#B4432C] underline" href="https://uri.amap.com/search?keyword=%E9%95%87%E6%B1%9F%E5%8D%9A%E7%89%A9%E9%A6%86" target="_blank" rel="noopener">导航</a></td></tr>
+          <tr><td class="px-4 py-3 font-semibold">毕士荣金山早茶总店</td><td class="px-4 py-3">金山桥北侧翠堤春晓底商，蓝底金字招牌</td><td class="px-4 py-3">长江路 267-23 号 · 金山公园东门外</td><td class="px-4 py-3"><a class="text-[#B4432C] underline" href="https://uri.amap.com/search?keyword=%E6%AF%95%E5%A3%AB%E8%8D%A3%E9%87%91%E5%B1%B1%E6%97%A9%E8%8C%B6" target="_blank" rel="noopener">导航</a></td></tr>
+          <tr><td class="px-4 py-3 font-semibold">焦山风景区</td><td class="px-4 py-3">东吴路尽头「焦山」大门，先乘渡轮上岛</td><td class="px-4 py-3">公交「焦山风景区」站（49/76/104/204 等）</td><td class="px-4 py-3"><a class="text-[#B4432C] underline" href="https://uri.amap.com/search?keyword=%E7%84%A6%E5%B1%B1%E9%A3%8E%E6%99%AF%E5%8C%BA" target="_blank" rel="noopener">导航</a></td></tr>
+          <tr><td class="px-4 py-3 font-semibold">面条一条街</td><td class="px-4 py-3">万祥商厦后巷，巷口多家锅盖面招牌连排</td><td class="px-4 py-3">大市口 · 中山东路大娘水饺旁巷内</td><td class="px-4 py-3"><a class="text-[#B4432C] underline" href="https://uri.amap.com/search?keyword=%E9%82%B5%E9%A1%BA%E5%85%B4%E9%94%85%E7%9B%96%E9%9D%A2" target="_blank" rel="noopener">导航</a></td></tr>
+          <tr><td class="px-4 py-3 font-semibold">中国醋文化博物馆</td><td class="px-4 py-3">恒顺工业园旁，露天晒醋陶坛阵 + 大厂房</td><td class="px-4 py-3">丹徒区恒顺大道 60 号 · 打车前往</td><td class="px-4 py-3"><a class="text-[#B4432C] underline" href="https://uri.amap.com/search?keyword=%E4%B8%AD%E5%9B%BD%E9%86%8B%E6%96%87%E5%8C%96%E5%8D%9A%E7%89%A9%E9%A6%86" target="_blank" rel="noopener">导航</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="mt-10" style="background:var(--ink)">
+  <div class="max-w-6xl mx-auto px-4 py-10 text-[#E8DCC8] text-xs leading-relaxed">
+    <p class="font-bold text-sm mb-3">镇江 · 极致奢享深度游 · 预览版 v1.3</p>
+    <p class="opacity-80">数据核验日期：2026-09-23 · 所有营业时间 / 票价均联网核实，国庆期间景区可能临时调整，出行前请以官方当日通告为准。</p>
+    <p class="opacity-60 mt-3">主要资料来源：国务院办公厅《关于2026年部分节假日安排的通知》（gov.cn）· 镇江博物馆官网（zj-museum.com.cn）· 镇江市人民政府网 · 镇江本地宝 · 镇江文旅集团 · 天气网 / 镇江市统计年鉴（10月均温）· 高德地图 POI。</p>
+    <p class="opacity-60 mt-2">实景图片来自公开网络检索（视觉中国 / 今日头条 / 美篇等公开页面），版权归原作者所有，仅用于行程参考，侵权请联系删除。</p>
+    <p class="opacity-50 mt-4">行程节奏为 ACL 术后第 8 周与 50 岁+旅伴定制 · 医疗建议请遵医嘱。</p>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-[60] px-5 py-3 rounded-xl text-sm text-white shadow-soft hidden" style="background:var(--ink)">PDF 将在方案确认后生成并附于本站</div>
+
+<script>
+(function(){
+  window.imgFallback = function(img, name){
+    var ph = document.createElement('div');
+    ph.className = 'photo-fallback w-full h-full';
+    ph.style.minHeight = img.clientHeight ? img.clientHeight+'px' : '120px';
+    var t = document.createElement('p');
+    t.className = 'text-sm px-3 text-center';
+    t.textContent = name || '实景图';
+    ph.appendChild(t);
+    img.parentNode.replaceChild(ph, img);
+  };
+  window.filterDay = function(day, btn){
+    document.querySelectorAll('.day-pill').forEach(function(b){ b.classList.remove('active'); b.style.background='#F1E9DD'; b.style.color='inherit'; });
+    btn.classList.add('active'); btn.style.background='#B4432C'; btn.style.color='#fff';
+    document.querySelectorAll('article[data-day]').forEach(function(sec){
+      var show = (day==='all' || sec.getAttribute('data-day')===day);
+      sec.style.display = show ? '' : 'none';
+    });
+    var target = day==='all' ? document.getElementById('schedule') : document.querySelector('article[data-day="'+day+'"]');
+    if(target){ target.scrollIntoView({behavior:'smooth', block:'start'}); }
+  };
+  var toastTimer=null;
+  window.toast = function(){
+    var t = document.getElementById('toast');
+    if(!t) return;
+    t.classList.remove('hidden');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ t.classList.add('hidden'); }, 2600);
+  };
+})();
+</script>
+</body>
+</html>

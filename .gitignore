@@ -1,0 +1,7 @@
+user-screenshot*.png
+user-screenshot2.png
+inline_build*.py
+index-deploy.html
+index-deploy-*.html
+*.pyc
+__pycache__/
