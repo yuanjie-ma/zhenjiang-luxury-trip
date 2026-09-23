@@ -6,7 +6,6 @@
 
 打开：**https://yuanjie-ma.github.io/zhenjiang-luxury-trip/**
 
-（若页面刚推送后未生效，等待 1–2 分钟 GitHub Pages 构建。）
 
 ## 内容
 
