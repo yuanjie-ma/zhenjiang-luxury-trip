@@ -12,7 +12,7 @@
 
 ## 在线访问
 
-🔗 **https://yuanjie-ma.github.io/zhenjiang-luxury-trip/**
+🔗 **https://yuanjie-ma.github.io/zhenjiang-trip-2026nationalholiday/**
 
 > 首次部署后若 404，等待 GitHub Pages 构建 1–2 分钟后刷新即可。
 
